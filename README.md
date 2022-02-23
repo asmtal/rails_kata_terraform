@@ -1,0 +1,1 @@
+# rails_kata_terraform
