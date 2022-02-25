@@ -1,0 +1,4 @@
+resource "aws_key_pair" "default" {
+  key_name   = "default_key"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDOIlTdkl/EyD/S02dg4zzbi4aGPDLcZ/qGES5XfaFIeLIQvcRJsAx8HpUP2dJMRpdK71URHzUD5OqXRqVmkA/36U+6qTYMRk24LzWctohxx0Xa7mfvpMeBL2GtEQXGCw3b3oEUntW9qyG7gNMgOIdyJaqZ4/HP/ndHYGzhVSh2zc/BclXzMq7KxFAY6SqI+f28rYRacM/9WQWT7pOLuafnFgVMsGhMimVvnQsrShxPvrv6d4rDyvd9MvYOeYz1WJJvtvzY+exGw6ujU4Z7F2BJ3ZjoV5x6QaYZgDzQCUn48qbX240Ogh69wIBXn7WfeTrS8PRHOx06wE44iB7eox9b waterlow3442@gmail.com"
+}
