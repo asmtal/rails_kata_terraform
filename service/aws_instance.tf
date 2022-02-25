@@ -1,5 +1,5 @@
 resource "aws_instance" "sample" {
-  ami                         = "ami-08a8688fb7eacb171"
+  ami                         = "ami-0cf2781568620edef"
   instance_type               = "t2.small"
   monitoring                  = true
   iam_instance_profile        = data.terraform_remote_state.aws_iam.outputs.ecs_instance_profile_name
